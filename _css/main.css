@@ -23,10 +23,10 @@ body, input, select, textarea, pre, code, button {
   --color-visited: rgb(150, 0, 171, 1.0);
 
   --color-nav-main: rgb(255, 255, 255);
-  --color-nav-link-active: rgb(126, 186, 190);
-  --color-nav-link: rgb(126, 186, 190);
-  --color-nav-bg-hover: rgba(126, 186, 190, 0.4);
-  --color-nav-bg-active: rgba(126, 186, 190, 0.2);
+  --color-nav-link-active: rgb(113, 150, 66);
+  --color-nav-link: rgb(113, 150, 66);
+  --color-nav-bg-hover: rgba(113, 150, 66, 0.4);
+  --color-nav-bg-active: rgba(113, 150, 66, 0.2);
   --color-transparent: rgba(0, 0, 0, 0);
 }
 
