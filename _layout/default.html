@@ -5,11 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" type="text/css" href="_css/main.css">
+    <link rel="stylesheet" type="text/css" href="../_css/main.css">
   </head>
 
   <body>   
     <header>
+      <a class="logo" href="#">
+        <img src="../_images/logo.png" alt="Logo" />
+      </a>
+  
+      <input type="checkbox" id="btnNav" />
+      <label class="iconNav" for="btnNav"><span></span></label>
+      
+      <nav>
+        <ul>
+          <!-- <li><a class="active" href="#">Link</a></li> -->
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Get Involved</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
@@ -20,6 +36,13 @@
       </div><!-- /.container -->
     </main>
     <footer>
+        <p>© Copyright 2020 HOUSE N2 HOME</p>
+        <div class="sMedia">
+          <a href="https://www.facebook.com/HouseN2HomeWashtenaw"> <img src="../_images/icon-fb.png" alt="Facebook"> </a>
+          <a href="#foo"> <img src="../_images/icon-ins.png" alt="linkedIn"> </a>
+          <a href="#foo"> <img src="../_images/icon-tw.png" alt="Twitter"></a>
+      </div>
     </footer>
+    <script src="_js/mainScript.js"> </script>
   </body>
 </html>
